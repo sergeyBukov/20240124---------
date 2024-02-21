@@ -15,67 +15,7 @@ p {
 	text-align: justify;
 }
 
-/*-----контейнер визитка-----*/
-.wrap {
-	margin: 20% auto;
-	/* Делаем визитку по центру страницы */
-	width: 550px;
-	/* Ширина визитки */
-	height: 250px;
-	/* Высота визитки */
-	padding: 30px;
-	/* Внутренние отступы для красоты */
-	background: #FFFFFF;
-	/* Фон визитки, в данном случае - белый */
-	/*
-	3 строчки ниже это тень вокруг визитки
-	Каждая строчка для разных браузеров, использование этих 
-	строк делает тень кроссбраузерной
-	*/
-	-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
-	-moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
-	box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
-	/*
-	Так же 3 строчки для обеспечения кроссбраузерности
-	свойства закругленных углов
-	*/
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-
-.wrap hr {
-	margin-top: 20px;
-	/* Делаем отступ сверху для линии */
-}
-
-/*-----Блок основной информации-----*/
-.main_info {
-	margin-top: 20px;
-}
-
-/*-----текст-----*/
-.info-text {
-	font-weight: 800;
-	font-size: 30px;
-}
-
-.name-text {
-	font-weight: bold;
-}
-
-.container6 {
-	height: 10em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-
-/*-----education.html-----*/
-.img_education {
-	max-width: 150px;
-}
+/*-----index.html-----*/
 
 .nav-item a {
 	font-size: 100%;
@@ -85,4 +25,53 @@ p {
 	.nav-item a {
 		font-size: 0.8rem !important;
 	}
+}
+
+.menu_progressbar img {
+	width: 40px;
+}
+
+/*-----education.html-----*/
+.img_education {
+	max-width: 150px;
+}
+
+
+/*-----contacts.html-----*/
+.wrap {
+	margin: 20% auto;
+	width: 550px;
+	height: 250px;
+	padding: 30px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
+	box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.wrap hr {
+	margin-top: 20px;
+}
+
+.main_info {
+	margin-top: 20px;
+}
+
+.info-text {
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.name-text {
+	font-weight: bold;
+}
+
+/*-----my_project.html-----*/
+
+.carousel-item {
+	height: 350px;
+	overflow: hidden;
 }

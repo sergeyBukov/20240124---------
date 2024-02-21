@@ -1,53 +1,162 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css"  href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-	<title>my_project</title>
+  <title>my_project</title>
 </head>
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-info">
-  <a class="navbar-brand" href="#">Портфолио</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link mb-0 h4" href="index.html"> О СЕБЕ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link mb-0 h4" href="education.html">ОБРАЗОВАНИЕ</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link mb-0 h4" href="my_project.html">МОИ ПРОЕКТЫ<span class="sr-only">(текущая)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link mb-0 h4" href="contacts.html">КОНТАКТЫ</a>
-      </li>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+    <a class="navbar-brand" href="#">Портфолио</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link mb-0 h4" href="index.html"> О СЕБЕ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mb-0 h4" href="education.html">ОБРАЗОВАНИЕ</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mb-0 h4" href="my_project.html">МОИ РАБОТЫ<span class="sr-only">(текущая)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mb-0 h4" href="contacts.html">КОНТАКТЫ</a>
+        </li>
 
-    </ul>
-  </div>
-</nav>
-
-<h1>МОИ ПРОЕКТЫ</h1>
-
-<footer class="bg-light text-center text-lg-start text-center text-lg-start" class="navbar-fixed-bottom">
-    <div class="fixed-bottom bg-body p-2 div9" class="text-center p-3" style="height: 50px;">© 2022 Все права защищены Sergey.Bukov@yandex.ru
+      </ul>
     </div>
-</footer>
+  </nav>
+
+  <div class="blog" id="blog">
+    <div class="container">
+      <h1 class="text-center">Мои работы</h1>
+      <div class="row">
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js" ></script>	
-<script>
-	console.log('jQuery v' + $.fn.jquery);
- 	console.log('Bootstrap v' + $.fn.tooltip.Constructor.VERSION);
-</script>	
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="card">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 " src="img/my_project/верстка_Brand_1.png" alt="Первый слайд">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/my_project/верстка_BRAND_2.png" alt="Второй слайд">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="card-body">
+              <h8 class="text-secondary">Описание работы</h8>
+              <h5 class="card-title">Верстка по макету из Figma</h5>
+              <p class="card-text">
+                СТЕК:CSS
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/sergeyBukov/-------_BRAND" class="card-link">Ссылка на код GIT</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="card">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 " src="img/my_project/верстка_Brand_1.png" alt="Первый слайд">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/my_project/верстка_BRAND_2.png" alt="Второй слайд">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="card-body">
+              <h8 class="text-secondary">Описание работ</h8>
+              <h5 class="card-title">Верстка по макету из Figma</h5>
+              <p class="card-text">
+                СТЕК:CSS
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/sergeyBukov/-------_BRAND" class="card-link">Ссылка на код GIT</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/slide2.jpg" class="img-fluid">
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Post Title</h4>
+              <p class="card-text">
+
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="" class="card-link">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="bg-light text-center text-lg-start text-center text-lg-start" class="navbar-fixed-bottom">
+    <div class="fixed-bottom bg-body p-2 div9" class="text-center p-3" style="height: 50px;">© 2024 Все права защищены
+      Sergey.Bukov@yandex.ru
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    console.log('jQuery v' + $.fn.jquery);
+    console.log('Bootstrap v' + $.fn.tooltip.Constructor.VERSION);
+  </script>
 
 </body>
+
 </html>
